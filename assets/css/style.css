@@ -1,0 +1,79 @@
+/*estilo da página index.html */
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#menu li a:hover {
+    color:grey;
+
+}
+
+.center {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+
+
+.text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#title-b{
+    color: brown;
+}
+
+#title-y{
+    color: yellow;
+}
+
+#title-bl{
+    color:blue;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+/*estilo da página melhoresEpisodios.html */
+
+
+.container2 {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.container3{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.br-50{
+    border-radius: 400px;
+    padding: 40px;
+}
+
+.wh {
+    width: 400px;
+    height: 300px;
+}
